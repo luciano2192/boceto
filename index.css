@@ -86,3 +86,21 @@ a {
     font-size: 1.5vw;
     color: black;
 }
+
+.container-menu-img {
+    display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .container-menu-img {
+        display: block;
+    }
+
+    .container-nav {
+        display: none;
+    }
+
+    .container-header {
+        min-width: 100vw;
+    }
+}
